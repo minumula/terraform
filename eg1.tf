@@ -12,6 +12,7 @@ provider "aws" {
   region  = "us-west-2"
 }
 
+
 resource "aws_instance" "example" {
   ami           = "amzn2-ami-hvm-2.0.20210219.0-x86_64-gp2"
   instance_type = "t2.micro"
